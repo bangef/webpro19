@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <style>
+        select, img {
+            width: 250px;
+            height: auto;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Image</title>
+</head>
+
+<body>
+    <select id="changeImage" onchange="change_image()">
+        <option disabled selected>Macam - Macam Disto Ubuntu</option>
+        <option value="Blankon" >BlankOn</option>
+        <option value="Lubuntu">Lubuntu</option>
+        <option value="Mint">Mint</option>
+        <option value="Puppy">Puppy</option>
+        <option value="Redhat">Redhat</option>
+        <option value="Ubuntu">Ubuntu</option>
+    </select>
+    <br/>
+    <br/>
+    <img id="gambar" src="" alt="Pilih menu diatas untuk menampilkan gambar!" width="100px" height="auto">
+    <script>
+        function change_image() {
+            let images = document.getElementById("changeImage").value;
+            let gambar = document.getElementById("gambar");
+            if (images == "Blankon"){
+                gambar.src="./img/blankon.png";
+                alert(`Ini adalah distro ${images}`);
+            }else if (images == "Lubuntu"){
+                gambar.src="./img/lubuntu.png";
+                alert(`Ini adalah distro ${images}`);
+            }else if (images == "Mint"){
+                gambar.src="./img/mint.png";
+                alert(`Ini adalah distro ${images}`);
+            }else if (images == "Puppy"){
+                gambar.src="./img/puppy.png";
+                alert(`Ini adalah distro ${images}`);
+            }else if (images == "Redhat"){
+                gambar.src="./img/redhat.png";
+                alert(`Ini adalah distro ${images}`);
+            }else if (images == "Ubuntu"){
+                gambar.src="./img/ubuntu.png";
+                alert(`Ini adalah distro ${images}`);
+            }
+        }
+    </script>
+</body>
+
+</html>

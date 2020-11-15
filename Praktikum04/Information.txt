@@ -1,0 +1,16 @@
+font-family: arial,sans-serif
+
+color pallete :
+
+-background:
+	#FFFFFF (putih)
+	#F48E4C (orange), rgba: 244, 142, 76, 80%
+	#BEBEBE (abu - abu)
+
+-font:
+	#2B2B2B (Hitam)
+	#F48E4C (orange)
+	#BEBEBE (abu - abu)
+
+Inspirasi web design :
+https://id.pinterest.com/pin/575194183659420814/?nic_v2=1a7LuRin0

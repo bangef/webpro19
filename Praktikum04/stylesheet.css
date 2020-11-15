@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clear{
+    clear: both;
+}
+
+/* header */
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.head-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    list-style-type: none;
+}
+
+.head-center li {
+    display: inline-block;
+}
+
+.head-center a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgba(244, 142, 76, 50%);
+    padding: 0 60px;
+}
+
+.head-center a:hover {
+    color: rgba(244, 142, 76, 100%);
+}
+
+
+.head-center img {
+    width: auto;
+    padding: 2.5px 0 0 0;
+    height: 35px;
+    margin: 0;
+}
+
+/* Top-Wrapepr */
+.top-wrapper {
+    height: 600px;
+    background-image: url(Image/img_top-wrapper-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-left-side {
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 600px;
+}
+
+.top-left-side h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.5;
+    display: inline-block;
+    text-align: left;
+    color: #202020;
+}
+
+.top-left-side span {
+    font-weight: bolder;
+}
+
+.top-right-side {
+    float: right;
+    width: 585px;
+    height: 600px;
+}
+
+legend {
+    font-size: 24px;
+    margin: 5px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+
+form {
+    background-color: rgba(244, 142, 76, 80%);
+    width: 290px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+input,
+select {
+    border-radius: 3px;
+    margin: 5px;
+    border: none;
+    padding: 10px;
+    width: 250px;
+    background-color: #ffffff;
+}
+.submit{
+    height: 45px;
+    color: #ffffff;
+    background-color: #222222;
+}
+
+.submit:hover {
+    color: #F48E4C;
+    background-color: #ffffff;
+}
+
+.submit:active {
+    border: 2px solid rgba(244, 142, 76, 80%);
+    background: white;
+    color: #F48E4C;
+}
+
+
+/* lesson-wrapper */
+.lesson-wrapper {
+    height: 300px;
+    padding: 70px 0;
+    background-color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid rgba(190, 190, 190, 30%);
+
+}
+
+.lesson h1{
+    font-weight: bolder;
+    padding-bottom: 20px;
+    color: #222222;
+}
+
+.lesson h3 {
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #222222;
+}
+
+.lesson h3 {
+    color: #F48E4C;
+}
+
+.lesson p {
+    color: #bebebe;
+}
+
+/* bottom-wrapper */
+.bottom-wrapper {
+    height: 600px;
+    padding: 70px 0;
+    border-bottom: 1px solid rgba(190, 190, 190, 30%);
+}
+
+.bottom-left-side {
+    float: left;
+    width: 585px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+}
+
+.bottom-left-side img {
+    width: 460px;
+}
+.bottom-right-side h1{
+    font-weight: bolder;
+    padding-bottom: 20px;
+    color: #222222;
+}
+.bottom-right-side h3, .bottom-right-side p {
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #222222;
+}
+
+.bottom-right-side h3 {
+    color: #F48E4C;
+}
+
+.bottom-right-side p {
+    color: #bebebe;
+}
+/* testimoni wrapper */
+.testimoni-wrapper {
+    padding: 70px 0;
+    border-bottom: 1px solid rgba(190, 190, 190, 30%);
+    text-align: center;
+
+}
+
+.testimoni-wrapper h1{
+    font-weight: bolder;
+    padding-bottom: 20px;
+    color: #222222;
+
+}
+
+.testimoni-wrapper img {
+    width: 230px;
+    padding-bottom: 20px;
+}
+
+.testimoni-wrapper p {
+    padding: 0px 100px 20px 100px;
+    color: #BEBEBE;
+}
+
+#testi-cust {
+    font-weight: bold;
+    color: #F48E4C;
+    padding-bottom: 20px;
+}
+
+/* footer */
+footer {
+    background-color: #202020;
+    font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 200;
+    height: 30px;
+}
+footer a {
+    text-decoration: none;
+}
+.footer {
+    display: inline;
+    line-height: 30px;
+    padding: 0;
+}
+
+.ig {
+    color: #E26F1E;
+}
+
+.pinterst {
+    color: #BD081C;
+}

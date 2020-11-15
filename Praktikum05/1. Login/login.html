@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+        }
+
+        section {
+            margin: 1em;
+        }
+
+        div.container {
+            margin: auto;
+            margin-top: 14.285em;
+            max-width: 14.285em;
+            width: 100%;
+            padding: 1em;
+            background-color: yellowgreen;
+            color: white;
+        }
+
+        legend,
+        #login {
+            font-weight: bold;
+        }
+
+        label,
+        legend {
+            margin: 0.5em;
+        }
+
+        input {
+            width: 14em;
+            margin: 0.5em;
+            padding: 1em;
+            border: none;
+        }
+
+        #login:hover {
+            color: white;
+            background-color: yellowgreen;
+            cursor: pointer;
+            border: 1px solid white;
+        }
+
+        #login {
+            width: 16em;
+            color: yellowgreen;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <form method="POST" name="myform">
+                <legend>Login Authentication</legend>
+                <label>username :</label><br />
+                <input id="username" value="" type="text" name="username" placeholder="Masukan username" /><br />
+                <label>Password :</label><br />
+                <input id="password" type="password" name="password" placeholder="Masukan password" /><br />
+                <input type="button" id="login" value="Login" onclick='Login()'/>
+            </form>
+        </div>
+    </section>
+    <script src="otentikasi.js"></script>
+</body>
+
+</html>
